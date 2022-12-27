@@ -1,0 +1,60 @@
+*{
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+
+.HeaderImg {
+	width: 100%;
+	min-height: 400px;
+	background-image:url(../../assets/images/simple-house-01.jpg) ;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	display:flex ;
+	align-items: flex-end;
+	padding-bottom: 25px;
+}
+.container {	
+	max-width: 1140px;
+	width: 100%;
+	height: auto;
+	margin-left: auto;
+	margin-right: auto;
+	padding-left: 15px;
+	padding-right: 15px;
+}
+
+.HeaderText {
+	display: flex;
+	justify-content: space-between;
+
+}
+.LogoText {
+	color:white;
+	display: flex;
+	justify-content: center;
+	align-items:center;
+}
+.Text {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+}
+nav{
+	display: flex;
+	justify-content: space-between;
+	align-items:center;
+}
+ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	display: flex;
+ }
+ ul a {
+	color: white;
+	text-align: center;
+	padding: 14px 16px;
+	text-decoration: none;
+ }
